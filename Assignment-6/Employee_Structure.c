@@ -13,8 +13,7 @@ int main() {
     scanf("%d", &employee.id);
 
     printf("Enter employee name: ");
-    scanf(" %[^
-]", employee.name);
+    scanf(" %49[^\n]", employee.name);
 
     printf("Enter salary: ");
     scanf("%f", &employee.salary);
