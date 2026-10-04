@@ -10,12 +10,10 @@ int main() {
     struct Book book;
 
     printf("Enter book title: ");
-    scanf(" %[^
-]", book.title);
+    scanf(" %99[^\n]", book.title);
 
     printf("Enter author name: ");
-    scanf(" %[^
-]", book.author);
+    scanf(" %49[^\n]", book.author);
 
     printf("Enter price: ");
     scanf("%f", &book.price);
