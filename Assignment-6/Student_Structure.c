@@ -10,8 +10,7 @@ int main() {
     struct Student student;
 
     printf("Enter student name: ");
-    scanf(" %[^
-]", student.name);
+    scanf(" %49[^\n]", student.name);
 
     printf("Enter roll number: ");
     scanf("%d", &student.roll_no);
